@@ -9,11 +9,14 @@ public class addNumbers : MonoBehaviour
 {
     public InputField num1_in;
     public InputField num2_in;
+
+    public Text result;
     public float num1;
     public float num2;
-    public Text result;
+   
+
     bool correctIn1 = false;
-    public bool correctIn2 = false;
+    bool correctIn2 = false;
 
     public void AddNumbersOnClick()
     {
@@ -39,7 +42,7 @@ public class addNumbers : MonoBehaviour
             correctIn2 = false;
         }
         
-        if (correctIn1 == true | correctIn2 == true)
+        if (correctIn1 == true && correctIn2 == true)
         {
             float addResult = num1 + num2;
             result.text = addResult.ToString();
