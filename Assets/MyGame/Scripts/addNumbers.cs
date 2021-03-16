@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 // Adding Numbers Calculation Marco Lindner
 
-public class addNumbers : MonoBehaviour
+public class AddNumbers : MonoBehaviour
 {
     public InputField num1_in;
     public InputField num2_in;
