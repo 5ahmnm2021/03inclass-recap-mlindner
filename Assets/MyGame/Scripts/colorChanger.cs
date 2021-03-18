@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 // Colors from Adobe Color: https://color.adobe.com/create/color-wheel
 
-public class colorChanger : MonoBehaviour
+public class ColorChanger : MonoBehaviour
 {
     public GameObject color;
     
